@@ -49,7 +49,6 @@
         margin-top: 9%;
         display: flex;
         justify-content: space-between;
-        background-color: #95e1d3;
         position: relative;
     }
     
@@ -126,9 +125,6 @@
         font-weight: 400;
         text-transform: uppercase;
     }
-    /* ДОДЕЛАТЬ */
-    
-    .skills__block {}
     
     .skills__item {
         margin-top: 4%;

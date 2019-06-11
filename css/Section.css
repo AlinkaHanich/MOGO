@@ -9,4 +9,18 @@
     width: 50%;
 }
 
-.serv {}
+.accord {
+    border: 1px solid #e5e5e5;
+}
+
+.accord__header {
+    border: 1px solid #e5e5e5;
+}
+
+.text__content--padding {
+    padding: 21px 55px 28px 20px;
+}
+
+.accord__header {
+    display: flex;
+}
