@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Не изменять */
+
+.main-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+/* Не изменять */
+
+.main-content {
+    flex: 1 0 auto;
+}
+
+
+/* Не изменять */
+
+.footer {
+    flex: 0 0 auto;
+    color: green;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+/* + @media / применить к main-content and footer */
+
+
+/* width=1200px deleted - медия работает в баннере. в хедере - нет, секция ниже сдвигается вправо*/
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.banner {
+    color: #ffffff;
+    background: url('/home/alinaganich/Рабочий стол/first_landing/img/banner-1.png') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* после добавления медии сдвинулся влево, выставила в центр, слетела медия*/
+
+.header {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 400px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    color: #ffffff;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+}
+
+
+/* баг под search */
+
+.nav__link:hover {
+    color: #fce38a;
+    border-bottom: solid 3px;
+    line-height: 8 px;
+}
+
+.main-title {
+    margin: 1% auto 0;
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.main-suptitle {
+    margin: 14% auto 0;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.container__title {
+    text-align: center;
+    width: 100%;
+    max-width: 825px;
+    margin: 0 auto;
+}
+
+.main-title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 60px auto 0;
+}
+
+.button {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: solid 3px;
+    color: #ffffff;
+    margin: 7% auto 0;
+    transition: all .2s linear;
+}
+
+.button:hover {
+    color: #e3957d;
+}
+
+
+/* MEDIA */
+
+@media (max-width: 449px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
+/* Mobile */
+
+@media (min-width: 450px) {
+    .container {
+        width: 449px;
+    }
+}
+
+@media (min-width: 650px) {
+    .container {
+        width: 649px;
+    }
+}
+
+
+/* Small */
+
+@media (min-width: 768px) {
+    .container {
+        width: 767px;
+    }
+}
+
+
+/* Medium */
+
+@media (min-width: 992px) {
+    .container {
+        width: 991px;
+    }
+}
+
+
+/* Large */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1199px;
+    }
+}

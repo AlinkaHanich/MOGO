@@ -1,0 +1,12 @@
+/* SERVISES */
+
+.servises {
+    margin-top: 9%;
+    display: flex;
+}
+
+.serv__item {
+    width: 50%;
+}
+
+.serv {}
