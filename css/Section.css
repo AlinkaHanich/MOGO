@@ -19,6 +19,7 @@
 
 .text__content--padding {
     padding: 20px 55px 25px 20px;
+    display: none;
 }
 
 .accord__header {
@@ -33,3 +34,17 @@
     left: 20px;
     transform: translateY(-50%);
 }
+
+.accord__icon__arrow {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+
+/* 
+.accord__icon__arrow:hover {
+    opacity: 0;
+}
+ */
