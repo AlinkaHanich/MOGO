@@ -10,17 +10,26 @@
 }
 
 .accord {
-    border: 1px solid #e5e5e5;
+    margin-left: 2%;
 }
 
-.accord__header {
+.accord__item {
     border: 1px solid #e5e5e5;
 }
 
 .text__content--padding {
-    padding: 21px 55px 28px 20px;
+    padding: 20px 55px 25px 20px;
 }
 
 .accord__header {
-    display: flex;
+    padding: 15px 20px 15px 60px;
+    position: relative;
+    border-bottom: #e5e5e5 1px solid;
+}
+
+.accord__icon {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
 }
