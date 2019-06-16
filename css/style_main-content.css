@@ -82,9 +82,6 @@ h2.title {
     transition: .3s linear;
 }
 
-
-/* Лаг  */
-
 .icon__text {
     color: #ffffff;
     font-size: 18px;
@@ -149,8 +146,6 @@ h2.title {
     display: flex;
     justify-content: space-between;
 }
-
-.img__item {}
 
 .text__title {
     color: #333333;
