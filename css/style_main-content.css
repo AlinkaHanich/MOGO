@@ -1,192 +1,202 @@
-                            h3.suptitle,
-                            h2.title {
-                                color: #333333;
-                                text-align: center;
-                            }
-                            /* Межстрочный интервал */
-                            
-                            .suptitle {
-                                margin: 9% auto 20px;
-                                font-size: 24px;
-                                font-weight: 400;
-                                font-family: "Kaushan Script";
-                            }
-                            
-                            .title {
-                                margin-top: 2%;
-                                font-size: 30px;
-                                font-weight: 700;
-                                text-transform: uppercase;
-                            }
-                            
-                            .title:after {
-                                content: "";
-                                display: block;
-                                width: 60px;
-                                height: 3px;
-                                background-color: #f38181;
-                                margin: 3% auto 0;
-                            }
-                            
-                            .text {
-                                margin-top: 46px;
-                                color: #999999;
-                                font-family: Roboto;
-                                font-size: 15px;
-                                font-weight: 400;
-                                line-height: 24px;
-                                width: 952px;
-                                margin: 0 auto;
-                                text-align: center;
-                            }
-                            /* Увеличить отсупы между картинками, добавить тень*/
-                            
-                            .about {
-                                margin-top: 9%;
-                                display: flex;
-                                justify-content: space-between;
-                                position: relative;
-                                cursor: pointer;
-                            }
-                            
-                            .about__images:hover .img img {
-                                opacity: 0.1;
-                            }
-                            
-                            .about__images:hover {
-                                transform: translate3d(-10px, -10px, 0);
-                                transition: .1s linear;
-                            }
-                            
-                            .img {
-                                background: linear-gradient(to bottom, #e9d385, #e4857e)
-                            }
-                            /*  
-                .img:hover {
-                    background-image: url(/home/alinaganich/Рабочий стол/first_landing/img/Rectangle_6_copy_4.png) no-repeat;
-                }
+h3.suptitle,
+h2.title {
+    color: #333333;
+    text-align: center;
+}
+
+
+/* Межстрочный интервал */
+
+.suptitle {
+    margin: 9% auto 20px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Kaushan Script";
+}
+
+.title {
+    margin-top: 2%;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 3% auto 0;
+}
+
+.text {
+    margin-top: 46px;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 952px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* Увеличить отсупы между картинками, добавить тень*/
+
+.about {
+    margin-top: 9%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+}
+
+.about__item:hover .img img {
+    opacity: 0.1;
+}
+
+.about__item:hover {
+    transform: translate3d(-10px, -10px, 0);
+    transition: .1s linear;
+    background: green;
+}
+
+.img {
+    background: linear-gradient(to bottom, #e9d385, #e4857e)
+}
+
+
+/*  
+.img:hover {
+  background-image: url(/home/alinaganich/Рабочий стол/first_landing/img/Rectangle_6_copy_4.png) no-repeat;
+}
                 */
-                            
-                            .img img {
-                                display: block;
-                                transition: .1s linear;
-                            }
-                            /* Лаг  */
-                            
-                            .icon__text {
-                                position: absolute;
-                                color: #ffffff;
-                                font-size: 18px;
-                                font-weight: 700;
-                                text-transform: uppercase;
-                                text-align: center;
-                                top: 38.5%;
-                                left: 34%;
-                                opacity: 0;
-                                z-index: 2;
-                                transition: .2s;
-                                line-height: .8;
-                            }
-                            
-                            .about__images:hover .icon__text {
-                                opacity: 1;
-                            }
-                            
-                            .statistics {
-                                margin-top: 6%;
-                                background-color: #95e1d3;
-                            }
-                            
-                            .statistic {
-                                display: flex;
-                            }
-                            
-                            .statistic__item {
-                                text-align: center;
-                                line-height: 1.4;
-                                height: 270px;
-                                padding: 5% 3%;
-                                flex: 1 1 0;
-                                border-right: 1px solid #aee8dd;
-                            }
-                            
-                            .statistic__item:first-child {
-                                border-left: 1px solid #aee8dd;
-                            }
-                            
-                            .stat__number {
-                                color: #ffffff;
-                                font-size: 72px;
-                                font-weight: 700;
-                                text-transform: uppercase;
-                            }
-                            
-                            .stat__text {
-                                color: #ffffff;
-                                font-size: 14px;
-                                font-weight: 400;
-                                text-transform: uppercase;
-                            }
-                            
-                            .skills__item {
-                                margin-top: 4%;
-                                display: flex;
-                                justify-content: space-between;
-                            }
-                            
-                            .img__item {}
-                            
-                            .text__title {
-                                color: #333333;
-                                font-family: Montserrat;
-                                font-size: 14px;
-                                font-weight: 400;
-                                text-transform: uppercase;
-                                line-height: 3;
-                            }
-                            
-                            hr {
-                                color: #f8f8f8;
-                            }
-                            
-                            .icon__img {
-                                margin-right: 30px;
-                            }
-                            
-                            .cell {
-                                display: flex;
-                                margin: 20px 20px 50px 20px;
-                            }
-                            
-                            .text__content {
-                                color: #999999;
-                                font-family: Roboto;
-                                font-size: 15px;
-                                font-weight: 400;
-                            }
-                            /* Section DESIGN */
-                            
-                            .wrapper__design {
-                                position: relative;
-                                width: 100%;
-                                background: url('/home/alinaganich/Рабочий стол/first_landing/img/design/2-layers.png') center no-repeat;
-                                background-size: cover;
-                                height: 900px;
-                            }
-                            
-                            .design__title {
-                                margin-top: 7%;
-                                padding-top: 2%;
-                            }
-                            
-                            .devices {
-                                position: absolute;
-                                bottom: 0;
-                                left: 36%;
-                            }
-                            
-                            .devices__iphone {
-                                position: absolute;
-                                bottom: -12%;
-                                right: 33%;
-                            }
+
+.img img {
+    display: block;
+    transition: .1s linear;
+}
+
+
+/* Лаг  */
+
+.icon__text {
+    position: absolute;
+    top: 43%;
+    left: 29%;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 0;
+    z-index: 2;
+    transition: .1s linear 0;
+    line-height: .8;
+}
+
+.about__item:hover .icon__text {
+    opacity: 1;
+}
+
+.statistics {
+    margin-top: 6%;
+    background-color: #95e1d3;
+}
+
+.statistic {
+    display: flex;
+}
+
+.statistic__item {
+    text-align: center;
+    line-height: 1.4;
+    height: 270px;
+    padding: 5% 3%;
+    flex: 1 1 0;
+    border-right: 1px solid #aee8dd;
+}
+
+.statistic__item:first-child {
+    border-left: 1px solid #aee8dd;
+}
+
+.stat__number {
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.stat__text {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.skills__item {
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img__item {}
+
+.text__title {
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 3;
+}
+
+hr {
+    color: #f8f8f8;
+}
+
+.icon__img {
+    margin-right: 30px;
+}
+
+.cell {
+    display: flex;
+    margin: 20px 20px 50px 20px;
+}
+
+.text__content {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/* Section DESIGN */
+
+.wrapper__design {
+    position: relative;
+    width: 100%;
+    background: url('/home/alinaganich/Рабочий стол/first_landing/img/design/2-layers.png') center no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+.design__title {
+    margin-top: 7%;
+    padding-top: 2%;
+}
+
+.devices {
+    position: absolute;
+    bottom: 0;
+    left: 36%;
+}
+
+.devices__iphone {
+    position: absolute;
+    bottom: -12%;
+    right: 33%;
+}
