@@ -1,158 +1,184 @@
-/* SERVISES */
-
-.servises {
-    margin-top: 9%;
-    display: flex;
-}
-
-.serv__item {
-    width: 50%;
-}
-
-
-/* JS */
-
-.accord {
-    margin-left: 2%;
-}
-
-.accord__item {
-    border: 1px solid #e5e5e5;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
-.text__content--padding {
-    padding: 20px 55px 25px 20px;
-    display: none;
-}
-
-.accord__header {
-    padding: 15px 20px 15px 60px;
-    position: relative;
-    border-bottom: #e5e5e5 1px solid;
-}
-
-.accord__icon {
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    transform: translateY(-50%);
-}
-
-.accord__icon__arrow {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-}
-
-
-/* QUOTE */
-
-.wrapper--quote {
-    width: 100%;
-    background-color: #f8f8f8;
-    height: 290px;
-    margin-top: 6%;
-}
-
-.quote {
-    padding: 70px 96px;
-}
-
-.quote__item {
-    display: block;
-    position: relative;
-}
-
-.quote__body {
-    margin-left: 22%;
-}
-
-.quote__icon {
-    position: absolute;
-    border: 3px solid #95e1d3;
-    padding: 45px 44px;
-}
-
-.quote__text {
-    color: #999999;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
-}
-
-
-/* SIGN */
-
-.sign {
-    font-family: "Kaushan Script";
-    font-size: 24px;
-    font-weight: 400;
-    margin-top: 22px;
-}
-
-.sign:before {
-    content: "";
-    display: inline-block;
-    vertical-align: middle;
-    width: 60px;
-    height: 3px;
-    background-color: #f38181;
-    margin-right: 10px;
-}
-
-
-/* TEAM */
-
-.staff__emp {
-    margin-top: 1%;
-    text-align: center;
-}
-
-.staff {
-    display: flex;
-    justify-content: space-between;
-    margin: 9% -30px;
-}
-
-.text__staff {
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1;
-}
-
-.staff__item {
-    width: 380px;
-    background-color: #95e1d3;
-    position: relative;
-}
-
-.staff__item:hover .img img {
-    opacity: 0.1;
-}
-
-.staff__item:hover .img {
-    transform: translate3d(-10px, -10px, 0);
-    transition: .1s linear;
-}
-
-.img {
-    background: linear-gradient(to bottom, #e9d385, #e4857e);
-    width: 380px;
-    transition: all 0.1 linear;
-}
-
-.img img {
-    display: block;
-    transition: .3s linear;
-}
-
+    /* SERVISES */
+    
+    .servises {
+        margin-top: 9%;
+        display: flex;
+    }
+    
+    .serv__item {
+        width: 50%;
+    }
+    /* JS */
+    
+    .accord {
+        margin-left: 2%;
+    }
+    
+    .accord__item {
+        border: 1px solid #e5e5e5;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    
+    .text__content--padding {
+        padding: 20px 55px 25px 20px;
+        display: none;
+    }
+    
+    .accord__header {
+        padding: 15px 20px 15px 60px;
+        position: relative;
+        border-bottom: #e5e5e5 1px solid;
+    }
+    
+    .accord__icon {
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%);
+    }
+    
+    .accord__icon__arrow {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+    }
+    /* QUOTE */
+    
+    .wrapper--quote {
+        width: 100%;
+        background-color: #f8f8f8;
+        height: 290px;
+        margin-top: 6%;
+    }
+    
+    .quote {
+        padding: 70px 96px;
+    }
+    
+    .quote__item {
+        display: block;
+        position: relative;
+    }
+    
+    .quote__body {
+        margin-left: 22%;
+    }
+    
+    .quote__icon {
+        position: absolute;
+        border: 3px solid #95e1d3;
+        padding: 45px 44px;
+    }
+    
+    .quote__text {
+        color: #999999;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+    }
+    /* SIGN */
+    
+    .sign {
+        font-family: "Kaushan Script";
+        font-size: 24px;
+        font-weight: 400;
+        margin-top: 22px;
+    }
+    
+    .sign:before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 60px;
+        height: 3px;
+        background-color: #f38181;
+        margin-right: 10px;
+    }
+    /* TEAM */
+    
+    .staff__emp {
+        margin-top: 1%;
+        text-align: center;
+    }
+    
+    .staff {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 9%;
+    }
+    
+    .text__staff {
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1;
+    }
+    
+    .staff__item {
+        width: 380px;
+        background-color: #95e1d3;
+        position: relative;
+    }
+    
+    .staff__item:hover .img img {
+        opacity: 0.1;
+    }
+    
+    .staff__item:hover .img {
+        transform: translate3d(-10px, -10px, 0);
+        transition: .1s linear;
+    }
+    
+    .img {
+        position: relative;
+        background: linear-gradient(to bottom, #e9d385, #e4857e);
+        width: 380px;
+        transition: all 0.1 linear;
+    }
+    
+    .img img {
+        display: block;
+        transition: .3s linear;
+    }
+    /*  
+    .share {
+        position: absolute;
+        top: 45%;
+        left: 30%;
+    }
+    */
+    
+    .share {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 41%;
+        right: 2.5%;
+        z-index: 1;
+        transition: .1s linear 0;
+        opacity: 0;
+    }
+    
+    .share__icon {
+        padding: 16px 16px;
+        border-left: 1px solid #f8bc86;
+    }
+    
+    .share__icon:last-child {
+        border-right: 1px solid #f8bc86;
+    }
+    
+    .staff__item:hover .share {
+        opacity: 1;
+        transition: 0.3s linear;
+    }
+    /* 
 .icon__text {
     color: #ffffff;
     font-size: 18px;
