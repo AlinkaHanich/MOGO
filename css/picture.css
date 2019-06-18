@@ -22,16 +22,20 @@
     line-height: 24px;
 }
 
-.pic__item {
-    position: relative;
-}
-
 .work__info {
     position: absolute;
 }
 
 .pic__column {}
 
-.pic__item {}
+.pic__photo {
+    background: linear-gradient(to bottom, #e9d385, #e4857e);
+    width: 513px;
+    transition: all 0.1 linear;
+}
 
-.pic__photo {}
+.pic__photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
