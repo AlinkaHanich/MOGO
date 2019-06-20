@@ -140,19 +140,6 @@
     }
     /* BLOG */
     
-    .blog__pic {
-        position: relative;
-    }
-    
-    .blog__date {
-        position: absolute;
-        margin-bottom: 3%;
-    }
-    
-    .blog__photo {
-        display: block;
-    }
-    
     .blog {
         display: flex;
     }
@@ -162,6 +149,37 @@
         margin: 0 2% auto 0;
     }
     
-    .blog__item:last-child {
-        margin-left: 0;
+    .blog__pic {
+        position: relative;
+    }
+    
+    .blog__date {
+        position: absolute;
+        z-index: 1;
+        padding: 15px;
+        top: 50%;
+        background: #95e1d3;
+        left: -3%;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .day {
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    
+    .month {
+        font-family: Roboto, sans-serif;
+        font-style: italic;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .open__map {
+        margin-top: 6%;
+        background-image: url('/img/Rectangle_10.png') no-repeat;
     }
