@@ -24,12 +24,9 @@
     
     .pic__photo {
         display: block;
-        max-width: 100%;
+        width: 100%;
+        max-width: 476px;
         height: auto;
-    }
-    
-    .pic__photo {
-        width: 513px;
     }
     
     .pic__item {
@@ -133,6 +130,7 @@
         font-size: 15px;
         font-weight: 400;
         line-height: 24px;
+        cursor: pointer;
     }
     
     .m_right {
@@ -141,6 +139,7 @@
     /* BLOG */
     
     .blog {
+        margin-top: 4%;
         display: flex;
     }
     
@@ -151,17 +150,19 @@
     
     .blog__pic {
         position: relative;
+        cursor: pointer;
     }
     
     .blog__date {
         position: absolute;
         z-index: 1;
         padding: 15px;
-        top: 50%;
+        top: 52%;
         background: #95e1d3;
         left: -3%;
         color: #ffffff;
         text-align: center;
+        line-height: 1.5;
     }
     
     .day {
@@ -181,5 +182,32 @@
     
     .open__map {
         margin-top: 6%;
-        background-image: url('/img/Rectangle_10.png') no-repeat;
+        background: url('/home/alinaganich/Рабочий стол/first_landing/img/Layer_59.png') no-repeat;
+        height: 200px;
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .icon__map {
+        padding-top: 50px;
+        text-align: center;
+        line-height: 2;
+        cursor: pointer;
+    }
+    
+    .text__map:after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 3px;
+        background-color: #f38181;
+        margin: 18px auto 0;
+    }
+    
+    .text__map {
+        color: #f38181;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
     }

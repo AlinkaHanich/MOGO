@@ -1,0 +1,90 @@
+.mogo__footer {
+    width: 100%;
+    display: flex;
+}
+
+.footer__item__mogo {
+    width: 40%;
+}
+
+.footer__item__blogs {
+    width: 35%;
+}
+
+.footer__item__inst {
+    width: 25%;
+}
+
+.footer {
+    margin-top: 2%;
+}
+
+
+/* SUBSCRIBE */
+
+.subscribe {
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    margin-top: 5%;
+}
+
+input {
+    background: #ffffff;
+    border: 1px solid #ebebeb;
+    width: 230px;
+    height: 40px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px;
+}
+
+button {
+    background: #95e1d3;
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 0;
+    cursor: pointer;
+}
+
+.logo__mogo {
+    color: #cccccc;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+.mogo__footer {
+    padding-bottom: 6%;
+}
+
+.follow {
+    margin-top: 5%;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.uppercase {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.networks {
+    color: #95e1d3;
+}
+
+.net {
+    margin-left: 15px;
+}
