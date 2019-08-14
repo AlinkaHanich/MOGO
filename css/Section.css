@@ -134,6 +134,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 9%;
+    padding: 0 -15px;
 }
 .text__staff {
     font-family: 'Roboto', sans-serif;
@@ -144,7 +145,10 @@
     color: #999999;
 }
 .staff__item {
-    width: 380px;
+    width: 33.3333%;
+    padding: 0 6px;
+}
+.staff__inner {
     background-color: #95e1d3;
     position: relative;
 }
@@ -158,10 +162,14 @@
 .img {
     position: relative;
     background: linear-gradient(to bottom, #e9d385, #e4857e);
-    width: 380px;
+    max-width: 100%;
+    /* width: 380px; */
+    
     transition: all 0.1 linear;
 }
 .img img {
+    max-width: 100%;
+    height: auto;
     display: block;
     transition: .3s linear;
 }

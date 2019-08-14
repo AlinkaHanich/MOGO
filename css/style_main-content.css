@@ -37,7 +37,7 @@ h2.title {
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
-    width: 952px;
+    width: 83%;
     margin: 0 auto;
     text-align: center;
 }
@@ -46,10 +46,10 @@ h2.title {
 /* Увеличить отсупы между картинками, добавить тень*/
 
 .about {
-    margin-top: 9%;
+    margin: 9% -7px 0;
     display: flex;
     justify-content: space-between;
-    position: relative;
+    /* position: relative; */
     cursor: pointer;
 }
 
@@ -57,28 +57,34 @@ h2.title {
 /* ABOUT */
 
 .about__item {
-    width: 380px;
-    background-color: #95e1d3;
-    position: relative;
+    width: 33.3333%;
+    padding: 0 7px;
 }
 
-.about__item:hover .img img {
+.about__inner {
+    position: relative;
+    background-color: #95e1d3;
+}
+
+.about__inner:hover .img img {
     opacity: 0.1;
 }
 
-.about__item:hover .img {
+.about__inner:hover .img {
     transform: translate3d(-10px, -10px, 0);
     transition: .1s linear;
 }
 
 .img {
+    max-width: 100%;
     background: linear-gradient(to bottom, #e9d385, #e4857e);
-    width: 380px;
     transition: all 0.1 linear;
 }
 
 .img img {
-    display: block;
+    /* display: block; */
+    max-width: 100%;
+    height: auto;
     transition: .3s linear;
 }
 
@@ -97,7 +103,7 @@ h2.title {
     right: 3%;
 }
 
-.about__item:hover .icon__text {
+.about__inner:hover .icon__text {
     opacity: 1;
     transition: 0.3s linear;
 }

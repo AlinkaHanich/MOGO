@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title> MOGO </title>
     <script src="https://kit.fontawesome.com/3d15da2789.js"></script>
     <link rel="stylesheet" href="/home/alinaganich/Рабочий стол/first_landing/css/style.css" />
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/home/alinaganich/Рабочий стол/first_landing/libs/normalize.css" />
     <link rel="stylesheet" href="/home/alinaganich/Рабочий стол/first_landing/css/style.css" />
     <link rel="stylesheet" href="/home/alinaganich/Рабочий стол/first_landing/css/footer.css" />
-
+    <link rel="stylesheet" href="/home/alinaganich/Рабочий стол/first_landing/css/media.css" />
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400&display=swap" rel="stylesheet">
 </head>
@@ -26,26 +26,27 @@
                     <div class="header__logo ">
                         MoGo
                     </div>
-                    <nav>
-                        <div class="nav ">
-                            <a class="nav__link" href="# ">About</a>
-                            <a class="nav__link" href="# ">Service</a>
-                            <a class="nav__link" href="# ">Work</a>
-                            <a class="nav__link" href="# ">Blog</a>
-                            <a class="nav__link" href="# ">Contact</a>
-                            <a class="nav__link" href="# "><img src="/home/alinaganich/Рабочий стол/first_landing/icon/SHOPPING_CART.png" alt="basket" /></a>
-                            <a class="nav__link" href="#"><img src="/home/alinaganich/Рабочий стол/first_landing/icon/MAGNIFYING_GLASS.png" alt="search" /></a>
-                        </div>
-                    </nav>
-                </header>
-                <div class="container">
-                    <div class="container__title">
-                        <h2 class="main-suptitle">Creative Template</h2>
-                        <h1 class="main-title">Welcome to MoGo</h1>
-                        <a class="button" href="#">Learn more</a>
+
+                    <div class="nav ">
+                        <a class="nav__link" href="# ">About</a>
+                        <a class="nav__link" href="# ">Service</a>
+                        <a class="nav__link" href="# ">Work</a>
+                        <a class="nav__link" href="# ">Blog</a>
+                        <a class="nav__link" href="# ">Contact</a>
+                        <a class="nav__link" href="# "><img src="/home/alinaganich/Рабочий стол/first_landing/icon/SHOPPING_CART.png" alt="basket" /></a>
+                        <a class="nav__link" href="#"><img src="/home/alinaganich/Рабочий стол/first_landing/icon/MAGNIFYING_GLASS.png" alt="search" /></a>
                     </div>
+
+                </header>
+
+
+                <div class="container__title">
+                    <h2 class="main-suptitle">Creative Template</h2>
+                    <h1 class="main-title">Welcome to MoGo</h1>
+                    <a class="button" href="#">Learn more</a>
                 </div>
             </div>
+
         </div>
 
 
@@ -64,29 +65,35 @@
                         <div class="about">
 
                             <div class="about__item">
-                                <div class="img">
-                                    <img src="/home/alinaganich/Рабочий стол/first_landing/img/story_about_us/Layer_44.png" alt="">
-                                </div>
-                                <div class="icon__text">
-                                    <img src="/home/alinaganich/Рабочий стол/first_landing/icon/USERS.png" alt="" /> super team
+                                <div class="about__inner">
+                                    <div class="img">
+                                        <img src="/home/alinaganich/Рабочий стол/first_landing/img/story_about_us/Layer_44.png" alt="">
+                                    </div>
+                                    <div class="icon__text">
+                                        <img src="/home/alinaganich/Рабочий стол/first_landing/icon/USERS.png" alt="" /> super team
+                                    </div>
                                 </div>
                             </div>
 
 
                             <div class="about__item">
-                                <div class="img">
-                                    <img src="/home/alinaganich/Рабочий стол/first_landing/img/story_about_us/Layer_39.png" alt="">
-                                </div>
-                                <div class="icon__text">
-                                    <img src="/home/alinaganich/Рабочий стол/first_landing/icon/USERS.png" alt="" /> super team
+                                <div class="about__inner">
+                                    <div class="img">
+                                        <img src="/home/alinaganich/Рабочий стол/first_landing/img/story_about_us/Layer_39.png" alt="">
+                                    </div>
+                                    <div class="icon__text">
+                                        <img src="/home/alinaganich/Рабочий стол/first_landing/icon/USERS.png" alt="" /> super team
+                                    </div>
                                 </div>
                             </div>
                             <div class="about__item">
-                                <div class="img">
-                                    <img src="/home/alinaganich/Рабочий стол/first_landing/img/story_about_us/Layer_41.png" alt="">
-                                </div>
-                                <div class="icon__text">
-                                    <img src="/home/alinaganich/Рабочий стол/first_landing/icon/USERS.png" alt="" /> super team
+                                <div class="about__inner">
+                                    <div class="img">
+                                        <img src="/home/alinaganich/Рабочий стол/first_landing/img/story_about_us/Layer_41.png" alt="">
+                                    </div>
+                                    <div class="icon__text">
+                                        <img src="/home/alinaganich/Рабочий стол/first_landing/icon/USERS.png" alt="" /> super team
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -363,31 +370,33 @@
 
                             <div class="staff">
                                 <div class="staff__item">
-                                    <div class="img">
-                                        <img class="staff__photo" src="/home/alinaganich/Рабочий стол/first_landing/img/meet_our_team/Layer_16.png" />
-                                    </div>
-
-                                    <div class="share">
-                                        <div class="share__icon">
-
-                                            <a class="share__item" href="#">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </a>
-
-                                            <a class="share__item" href="#">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-
-                                            <a class="share__item" href="#">
-                                                <i class="fab fa-pinterest-p"></i>
-                                            </a>
-
-                                            <a class="share__item" href="#">
-                                                <i class="fab fa-instagram"></i>
-                                            </a>
-
+                                    <div class="staff__inner">
+                                        <div class="img">
+                                            <img class="staff__photo" src="/home/alinaganich/Рабочий стол/first_landing/img/meet_our_team/Layer_16.png" />
                                         </div>
 
+                                        <div class="share">
+                                            <div class="share__icon">
+
+                                                <a class="share__item" href="#">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+
+                                                <a class="share__item" href="#">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+
+                                                <a class="share__item" href="#">
+                                                    <i class="fab fa-pinterest-p"></i>
+                                                </a>
+
+                                                <a class="share__item" href="#">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+
+                                            </div>
+
+                                        </div>
                                     </div>
 
                                 </div>
@@ -395,64 +404,66 @@
 
 
                                 <div class="staff__item ">
-                                    <div class="img">
-                                        <img class="staff__photo" src="/home/alinaganich/Рабочий стол/first_landing/img/meet_our_team/Layer_19.png" />
-                                    </div>
-                                    <div class="share">
-                                        <div class="share__icon">
+                                    <div class="staff__inner">
+                                        <div class="img">
+                                            <img class="staff__photo" src="/home/alinaganich/Рабочий стол/first_landing/img/meet_our_team/Layer_19.png" />
+                                        </div>
+                                        <div class="share">
+                                            <div class="share__icon">
 
-                                            <a class="share__item" href="#">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </a>
+                                                <a class="share__item" href="#">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
 
-                                            <a class="share__item" href="#">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
+                                                <a class="share__item" href="#">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
 
-                                            <a class="share__item" href="#">
-                                                <i class="fab fa-pinterest-p"></i>
-                                            </a>
+                                                <a class="share__item" href="#">
+                                                    <i class="fab fa-pinterest-p"></i>
+                                                </a>
 
-                                            <a class="share__item" href="#">
-                                                <i class="fab fa-instagram"></i>
-                                            </a>
+                                                <a class="share__item" href="#">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+
+                                            </div>
 
                                         </div>
-
                                     </div>
-
                                 </div>
 
 
                                 <div class="staff__item ">
-                                    <div class="img">
-                                        <img class="staff__photo" src="/home/alinaganich/Рабочий стол/first_landing/img/meet_our_team/Layer_18.png" />
-                                    </div>
-                                    <div class="share">
-                                        <div class="share__icon">
+                                    <div class="staff__inner">
+                                        <div class="img">
+                                            <img class="staff__photo" src="/home/alinaganich/Рабочий стол/first_landing/img/meet_our_team/Layer_18.png" />
+                                        </div>
+                                        <div class="share">
+                                            <div class="share__icon">
 
-                                            <a class="share__item" href="#">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </a>
+                                                <a class="share__item" href="#">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
 
-                                            <a class="share__item" href="#">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
+                                                <a class="share__item" href="#">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
 
-                                            <a class="share__item" href="#">
-                                                <i class="fab fa-pinterest-p"></i>
-                                            </a>
+                                                <a class="share__item" href="#">
+                                                    <i class="fab fa-pinterest-p"></i>
+                                                </a>
 
-                                            <a class="share__item" href="#">
-                                                <i class="fab fa-instagram"></i>
-                                            </a>
+                                                <a class="share__item" href="#">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+
+                                            </div>
 
                                         </div>
 
                                     </div>
-
                                 </div>
-
                             </div>
 
                             <div class="staff__sub">
