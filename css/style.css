@@ -39,6 +39,7 @@ body {
 /* width=1200px deleted - медия работает в баннере. в хедере - нет, секция ниже сдвигается вправо*/
 
 .container {
+    position: relative;
     width: 1200px;
     margin: 0 auto;
     height: 100%;

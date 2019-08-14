@@ -181,7 +181,6 @@ hr {
 /* Section DESIGN */
 
 .wrapper__design {
-    position: relative;
     width: 100%;
     background: url('/home/alinaganich/Рабочий стол/first_landing/img/design/2-layers.png') center no-repeat;
     background-size: cover;
@@ -193,14 +192,16 @@ hr {
     padding-top: 2%;
 }
 
+.pic__dev {}
+
 .devices {
     position: absolute;
+    padding-left: 29%;
     bottom: 0;
-    left: 36%;
 }
 
 .devices__iphone {
     position: absolute;
     bottom: -12%;
-    right: 33%;
+    margin-left: 58%;
 }
