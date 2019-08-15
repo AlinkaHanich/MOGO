@@ -1,58 +1,95 @@
-    @media screen and (max-width: 1200px) {
-        .container {
-            width: 970px;
-        }
-    }
-    
-    @media screen and (max-width: 991px) {
-        .container {
-            width: 750px;
-        }
-        .nav {
-            display: none;
-        }
-        .main-title {
-            font-size: 80px;
-        }
-        .main-suptitle {
-            font-size: 52px;
-        }
-        .text {
-            width: 98%;
-        }
-    }
-    
-    @media screen and (max-width: 767px) {
-        .container {
-            width: 450px;
-        }
-        .main-title {
-            font-size: 60px;
-        }
-        .main-suptitle {
-            font-size: 32px;
-        }
-        .suptitle {
-            font-size: 18px;
-        }
-        .title {
-            font-size: 22px;
-        }
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 970px;
     }
 }
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+    .nav {
+        display: none;
+        position: fixed;
+        /* top: 0; */
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        /* position: absolute; */
+        top: 99%;
+        /* left: 0;
+        margin-right: 0; */
+        background-color: #37302b;
+        width: 100%;
+        transform: translate3d(0, 0, 0);
+        padding-left: 22px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+    .nav.active {
+        display: block;
+    }
+    .nav__link {
+        display: block;
+        margin-left: 0;
+        height: 2rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .main-title {
+        font-size: 80px;
+    }
+    .main-suptitle {
+        font-size: 52px;
+    }
+    .text {
+        width: 98%;
+    }
+    .nav-toggle {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 660px;
+    }
+    .main-title {
+        font-size: 60px;
+    }
+    .main-suptitle {
+        font-size: 32px;
+    }
+    .suptitle {
+        font-size: 18px;
+    }
+    .title {
+        font-size: 22px;
+    }
+}
+
 @media screen and (max-width: 479px) {
     .container {
-        width: 310px;
+        width: 420px;
     }
-    /* Extra Small Devices, Phones */
-    /* 
+}
+
+
+/* Extra Small Devices, Phones */
+
+
+/* 
 @media only screen and (max-width: 480px) {
     .container {
         width: 479px;
     }
 } */
-    /* Large */
-    /* @media (min-width: 1230px) {
+
+
+/* Large */
+
+
+/* @media (min-width: 1230px) {
     .container {
         width: 1199px;
     }
@@ -81,8 +118,12 @@
         display: none;
     }
 } */
-    /* Mobile */
-    /* @media (min-width: 450px) {
+
+
+/* Mobile */
+
+
+/* @media (min-width: 450px) {
     .container {
         width: 449px;
     }
@@ -101,7 +142,9 @@
     .title {
         font-size: 22px;
     } */
-    /* 
+
+
+/* 
 @media (min-width: 650px) {
     .container {
         width: 649px;
@@ -122,8 +165,12 @@
         font-size: 22px;
     }
 } */
-    /* Small */
-    /* 
+
+
+/* Small */
+
+
+/* 
 @media (min-width: 768px) {
     .container {
         width: 767px;
@@ -138,8 +185,12 @@
         display: none;
     }
 } */
-    /* Medium */
-    /* @media (min-width: 992px) {
+
+
+/* Medium */
+
+
+/* @media (min-width: 992px) {
     .container {
         width: 970px;
     }

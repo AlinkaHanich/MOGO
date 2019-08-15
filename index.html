@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title> MOGO </title>
-    <script src="https://kit.fontawesome.com/3d15da2789.js"></script>
+
     <link rel="stylesheet" href="/home/alinaganich/Рабочий стол/first_landing/css/style.css" />
     <link rel="stylesheet" href="/home/alinaganich/Рабочий стол/first_landing/css/style_main-content.css" />
     <link rel="stylesheet" href="/home/alinaganich/Рабочий стол/first_landing/css/Section.css" />
@@ -16,27 +16,35 @@
     <link rel="stylesheet" href="/home/alinaganich/Рабочий стол/first_landing/css/media.css" />
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3d15da2789.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/app.js">
+    </script>
 </head>
 
 <body>
     <div class="main-wrapper ">
-        <div class="banner">
+        <div class="banner" id="banner">
             <div class="container">
-                <header class="header ">
-                    <div class="header__logo ">
-                        MoGo
-                    </div>
+                <header class="header" id="header">
+                    <div class="headerLogoNav">
+                        <div class="header__logo ">
+                            MoGo
+                        </div>
 
-                    <div class="nav ">
-                        <a class="nav__link" href="# ">About</a>
-                        <a class="nav__link" href="# ">Service</a>
-                        <a class="nav__link" href="# ">Work</a>
-                        <a class="nav__link" href="# ">Blog</a>
-                        <a class="nav__link" href="# ">Contact</a>
-                        <a class="nav__link" href="# "><img src="/home/alinaganich/Рабочий стол/first_landing/icon/SHOPPING_CART.png" alt="basket" /></a>
-                        <a class="nav__link" href="#"><img src="/home/alinaganich/Рабочий стол/first_landing/icon/MAGNIFYING_GLASS.png" alt="search" /></a>
+                        <div class="nav " id="nav">
+                            <a class="nav__link" href="# " data-scroll="#about">About</a>
+                            <a class="nav__link" href="# " data-scroll="#service">Service</a>
+                            <a class="nav__link" href="# " data-scroll="#work">Work</a>
+                            <a class="nav__link" href="# " data-scroll="#blog">Blog</a>
+                            <a class="nav__link" href="# " data-scroll="#contact">Contact</a>
+                            <a class="nav__link" href="# "><i class="fas fa-cart-plus"></i></a>
+                            <a class="nav__link" href="#"><i class="fas fa-search"></i></a>
+                        </div>
+                        <a href="#" class="nav-toggle">
+                            <span class="nav-toggle__item" id='nav-toggle__item'></span>
+                        </a>
                     </div>
-
                 </header>
 
 
@@ -52,7 +60,7 @@
 
 
         <main class="main-content ">
-            <section class="Story_about_us">
+            <section class="Story_about_us" id="about">
                 <div class="wrapper">
                     <div class="container">
 
@@ -128,7 +136,7 @@
                     </div>
                 </div>
             </div>
-            <section class="Amazing_services">
+            <section class="Amazing_services" id="service">
                 <div class="wrapper">
                     <div class="container">
 
@@ -506,7 +514,7 @@
                 </div>
             </div>
 
-            <section class="picture">
+            <section class="picture" id="work">
                 <div class="wrapper ">
                     <div class="container ">
                         <h3 class="suptitle ">What we do</h3>
@@ -768,7 +776,7 @@
                     </div>
                 </section>
 
-                <section class="latest__blog">
+                <section class="latest__blog" id="blog">
                     <div class="wrapper ">
                         <div class="container ">
 
@@ -876,7 +884,7 @@
 
 
 
-        <footer class="footer ">
+        <footer class="footer " id="contact">
             <section class="footer">
                 <div class="container ">
 
@@ -988,6 +996,8 @@
 
 
         </div>
+
 </body>
+
 
 </html>
