@@ -41,7 +41,7 @@
     
     .banner {
         color: #ffffff;
-        background: url('/home/alinaganich/Рабочий стол/first_landing/img/banner-1.png') center no-repeat;
+        background: url('../img/banner-1.png') center no-repeat;
         background-size: cover;
         min-height: 1000px;
     }
@@ -118,7 +118,7 @@
         height: 30px;
         background: transparent;
         position: absolute;
-        left: 20%;
+        left: 90%;
     }
     
     .nav-toggle:focus {

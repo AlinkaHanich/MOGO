@@ -101,7 +101,6 @@
     .title__reviews:after {
         content: "";
         display: block;
-        vertical-align: middle;
         width: 60px;
         height: 3px;
         background-color: #f38181;
@@ -141,11 +140,20 @@
     .blog {
         margin-top: 4%;
         display: flex;
+        justify-content: space-between;
     }
     
     .blog__item {
-        flex: 1 1 0;
+        width: 30%;
+        position: relative;
+        /* flex: 1 1 0; */
         margin: 0 2% auto 0;
+    }
+    
+    .blog__photo {
+        display: block;
+        width: 100%;
+        height: auto;
     }
     
     .blog__pic {
@@ -182,7 +190,7 @@
     
     .open__map {
         margin-top: 6%;
-        background: url('/home/alinaganich/Рабочий стол/first_landing/img/Layer_59.png') no-repeat;
+        background: url('../img/Layer_59.png') no-repeat;
         height: 200px;
         background-size: cover;
         width: 100%;
@@ -210,4 +218,8 @@
         font-size: 24px;
         font-weight: 700;
         text-transform: uppercase;
+    }
+    
+    .footer__inst {
+        display: flex;
     }

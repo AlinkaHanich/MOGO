@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var header = $('#header'),
         bannerHeight = $('#banner').innerHeight(),
-        scrollOffset = 0;
+        scrollOffset = $(window).scrollTop();
     // Fixed header
     checkScroll(scrollOffset);
 
@@ -18,7 +18,6 @@ $(document).ready(function() {
             header.addClass('fixed');
         } else {
             header.removeClass('fixed');
-
         }
     }
 
@@ -51,4 +50,23 @@ $(document).ready(function() {
 
         $('#nav').toggleClass('active');
     })
+
+    //Accordion
+    $('[data-discovery]').on('click', function(e) {
+            e.preventDefault();
+            var $this = $(this),
+                elemId = $this.data('discovery');
+
+            $this.toggleClass('active');
+            $(elemId).slideToggle();
+        })
+        //slider
+    $('.slider').slick({
+        infinite: true,
+        fade: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+
+    });
+
 })
