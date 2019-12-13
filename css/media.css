@@ -168,11 +168,56 @@
     .month {
         font-size: 14px;
     }
+    .quote__icon {
+        padding: 25px 24px;
+    }
+    .quote__text {
+        font-size: 16px;
+        line-height: 1.5;
+        padding-right: 2.4rem;
+    }
+    .sign {
+        font-size: 18px;
+    }
+    .sign:before {
+        width: 40px;
+        margin-right: 10px;
+    }
+    .slide__item {
+        padding: 0 3rem;
+    }
+    .quote__body-2 {
+        margin-left: 22%;
+    }
+    .quote__photo {
+        width: 8rem;
+    }
+    .text__map {
+        font-size: 18px;
+    }
+    .text__map:after {
+        width: 50px;
+        margin: 14px auto 0;
+    }
+    .wrapper--quote {
+        height: 240px;
+    }
+    .wrapper--photo {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: 150px;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .suptitle {
+        margin: 6% auto 20px;
+    }
 }
 
-@media screen and (max-width: 76px) {
+@media screen and (max-width: 411px) {
     .container {
-        width: 480px;
+        width: 380px;
     }
     .main-title {
         font-size: 60px;

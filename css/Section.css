@@ -179,17 +179,19 @@
     display: block;
     width: 16px;
     height: 16px;
-    border-top: 2px solid #ccc;
-    border-right: 2px solid #ccc;
+    border-top: 3px solid #ccc;
+    border-right: 3px solid #ccc;
 }
 
 .slick-prev {
     left: 0;
+    top: 50%;
     transform: rotate(-135deg);
 }
 
 .slick-next {
     right: 0;
+    top: 40%;
     transform: rotate(45deg);
 }
 
@@ -230,15 +232,15 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
+    padding-right: 2.8rem;
 }
 
 .slide__item {
-    width: 88%;
+    /* width: 88%; */
     height: 290px;
     position: absolute;
     top: 0;
-    right: 80px;
-    left: 80px;
+    padding: 0 4rem;
 }
 
 
@@ -248,7 +250,6 @@
     position: relative;
     top: 50%;
     transform: translate(0, -50%);
-    padding: 70px 96px;
 }
 
 .quote__photo {
@@ -258,7 +259,7 @@
 }
 
 .quote__body-2 {
-    margin-left: 26%;
+    margin-left: 21%;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
