@@ -83,7 +83,7 @@
         height: 52rem;
     }
     .accord__header {
-        padding: 0 10px 0 50px;
+        padding: 5px 10px 5px 50px;
     }
     .accord__text {
         padding: 1rem 1rem 1rem 1rem;
@@ -92,12 +92,12 @@
     }
     .accord__icon {
         left: 10px;
-        width: 6%;
+        width: 5%;
     }
     .accord__header::after,
     .accord__header::before {
-        width: 13px;
-        height: 13px;
+        width: 11px;
+        height: 11px;
     }
     .accord__header::before {
         top: 42%;
@@ -110,7 +110,7 @@
         width: 55%;
     }
     .accord__item {
-        margin-bottom: 4px;
+        margin-bottom: 8px;
     }
     .suptitle {
         font-size: 22px;
@@ -154,6 +154,7 @@
     }
     .text__title {
         line-height: 2;
+        font-size: 12px;
     }
     .blog__date {
         padding: 6px;
@@ -193,7 +194,7 @@
         width: 8rem;
     }
     .text__map {
-        font-size: 18px;
+        font-size: 15px;
     }
     .text__map:after {
         width: 50px;
@@ -212,6 +213,89 @@
     }
     .suptitle {
         margin: 6% auto 20px;
+    }
+    .logo__mogo {
+        font-size: 20px;
+    }
+    .mogo__footer {
+        padding-top: 1rem;
+    }
+    .text__content {
+        font-size: 12px;
+    }
+    .uppercase {
+        font-size: 14px;
+    }
+    .follow {
+        padding-top: .8rem;
+    }
+    .followers {
+        font-size: 12px;
+    }
+    .text__subtitle {
+        font-size: 12px;
+    }
+    .net {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .subscribe {
+        width: 180px;
+        display: flex;
+        padding-top: 1rem;
+    }
+    .input__email {
+        width: 170px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .btn__subscribe {
+        width: 70px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .icons {
+        font-size: 12px;
+    }
+    .icons__blog__count {
+        width: 13px;
+    }
+    .blogs__title {
+        font-size: 13px;
+    }
+    .footer__item__blogs {
+        padding-top: .7rem;
+        padding-right: 1.5rem;
+    }
+    .footer__item__mogo {
+        padding-right: 1rem;
+    }
+    .footer__blogs__img {
+        width: 100px;
+    }
+    .blogs__text {
+        font-size: 9px;
+        line-height: 14px;
+        padding-left: .7rem;
+    }
+    .blogs__date {
+        font-size: 9px;
+        line-height: 16px;
+    }
+    .blogs__cell {
+        height: 13rem;
+    }
+    .footer__item__inst {
+        padding-top: .7rem;
+    }
+    .inst__img {
+        width: 50px;
+    }
+    .link__photos {
+        font-size: 10px;
+    }
+    .footer__inst {
+        padding-bottom: .2rem;
     }
 }
 
