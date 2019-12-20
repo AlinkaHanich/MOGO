@@ -190,6 +190,7 @@
     
     .open__map {
         margin-top: 6%;
+        position: relative;
         background: url('../img/Layer_59.png') no-repeat;
         height: 200px;
         background-size: cover;
@@ -197,7 +198,10 @@
     }
     
     .icon__map {
-        padding-top: 50px;
+        position: absolute;
+        top: 23%;
+        left: 47%;
+        transform: translate(-23%);
         text-align: center;
         line-height: 2;
         cursor: pointer;

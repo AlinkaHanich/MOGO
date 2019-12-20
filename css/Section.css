@@ -31,27 +31,6 @@
     z-index: 1;
 }
 
-
-/* .accord__icon__arrow,
-.accord__icon__arrow::after {
-    position: absolute;
-    top: 50%;
-    margin-top: -1px;
-    /* margin-bottom: -1px; */
-
-
-/* width: 15px;
-    height: 2px;
-    background-color: #cdd2d5;
-    z-index: 1;
-}
-
-.accord__icon__arrow::after {
-    content: "";
-    display: block;
-    transform: translateX(45deg);
-} */
-
 .accord {
     margin-left: 2%;
 }
@@ -61,12 +40,6 @@
     margin-bottom: 10px;
     cursor: pointer;
 }
-
-
-/* 
-.accord__item.active .accord__text {
-    display: block;
-} */
 
 .accord__header {
     padding: 6px 20px 6px 60px;

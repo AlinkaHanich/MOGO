@@ -82,6 +82,10 @@
     .net {
         margin-left: 15px;
     }
+    
+    .net__link {
+        color: #95e1d3;
+    }
     /* BLOGS */
     
     .blogs__cell {
