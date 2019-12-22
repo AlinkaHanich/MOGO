@@ -1,8 +1,9 @@
     .mogo__footer {
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
         padding-top: 2rem;
-        height: 31rem;
+        max-height: 100%;
     }
     
     .footer__item__mogo {

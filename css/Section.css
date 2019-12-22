@@ -104,36 +104,6 @@
 
 /* QUOTE */
 
-
-/* arrow*/
-
-
-/* 
-.arrow::after,
-.arrow::before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    border-top: 2px solid #ccc;
-    border-right: 2px solid #ccc;
-    position: absolute;
-    right: 20px;
-}
-
-.arrow::after {
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%) rotate(-135deg);
-}
-
-.arrow::before {
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%) rotate(45deg);
-} */
-
 .slick-arrow {
     display: block;
     font-size: 0;
@@ -268,12 +238,14 @@
 
 /* TEAM */
 
-.staff__emp {
+.staff__emp,
+.staff__emp__mob {
     margin-top: 1%;
     text-align: center;
 }
 
-.staff {
+.staff,
+.staff__mob {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -281,7 +253,12 @@
     padding: 0 -15px;
 }
 
-.text__staff {
+.staff__mob {
+    display: none;
+}
+
+.text__staff,
+.text__staff__mob {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 15px;
@@ -290,7 +267,8 @@
     color: #999999;
 }
 
-.staff__item {
+.staff__item,
+.staff__item__mob {
     width: 33.3333%;
     padding: 0 6px;
 }
@@ -302,18 +280,30 @@
 
 .staff__item:hover .img img {
     opacity: 0.1;
+    display: block;
 }
 
 .staff__item:hover .img {
     transform: translate3d(-10px, -10px, 0);
     transition: .1s linear;
+    display: block;
+}
+
+.staff__inner__mob {
+    position: relative;
+}
+
+.share__mob {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
 }
 
 .img {
     position: relative;
     background: linear-gradient(to bottom, #e9d385, #e4857e);
     max-width: 100%;
-    /* width: 380px; */
+    display: block;
     transition: all 0.1 linear;
 }
 
@@ -349,9 +339,22 @@
     justify-content: center;
 }
 
+.share__icon__mob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .share__icon a {
-    text-decoration: none;
     color: #f38181;
+}
+
+.share__icon__mob a {
+    color: #f38181;
+}
+
+.share__icon__mob a:active {
+    color: #fff;
 }
 
 .share__item {

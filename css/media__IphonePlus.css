@@ -1,0 +1,227 @@
+    @media screen and (max-width: 767px) {
+        .container {
+            max-width: 360px;
+        }
+        .main-title {
+            font-size: 60px;
+        }
+        .main-suptitle {
+            font-size: 32px;
+        }
+        .suptitle {
+            font-size: 18px;
+        }
+        .title {
+            font-size: 22px;
+        }
+        .container__title {
+            margin: 7rem auto;
+        }
+        .button {
+            font-size: 12px;
+            padding: 7px 20px;
+            border: solid 2px;
+        }
+        .main-title:after {
+            margin: 30px auto 10px;
+        }
+        .suptitle {
+            margin: 7% auto 10px;
+            font-size: 20px;
+        }
+        .title {
+            font-size: 22px;
+            ;
+        }
+        .text {
+            font-size: 12px;
+            width: 70%;
+        }
+        .icon__img__users {
+            width: 17px;
+            margin: 0 auto 10px;
+        }
+        .icon__text {
+            top: 30%;
+            left: 50%;
+            transform: translate3d(-58%, -30%, 0);
+            display: flex;
+            flex-direction: column;
+            font-size: 10px;
+        }
+        .statistic__item {
+            height: 7.2rem;
+            padding: 7% 2%;
+            width: 20%;
+        }
+        .stat__number {
+            font-size: 24px;
+        }
+        .stat__text {
+            font-size: 11px;
+        }
+        .cell {
+            margin: 10px 10px 20px 10px;
+            width: 33.333%;
+            display: block;
+            text-align: center;
+        }
+        .icon__img {
+            margin-right: 0;
+            padding-bottom: .2rem;
+        }
+        .text__content {
+            font-size: 10px;
+        }
+        .img__item {
+            width: 26px;
+        }
+        .devices {
+            width: 70%;
+            left: 9%;
+        }
+        .devices__iphone {
+            width: 40%;
+            bottom: -12%;
+            left: 55%;
+        }
+        .wrapper__design {
+            height: 72vh;
+        }
+        .servises {
+            margin-top: 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .serv__item {
+            width: 100%;
+        }
+        .accord {
+            margin-left: 0;
+        }
+        .serv__item__accord {
+            width: 100%;
+            min-height: 140px;
+            margin-top: .7rem
+        }
+        .wrapper--logos {
+            height: 7rem;
+        }
+        .section__logos {
+            margin-top: 0;
+            padding: 2.2rem 2rem;
+        }
+        .reviews {
+            flex-direction: column;
+        }
+        .blog {
+            flex-direction: column;
+        }
+        .blog__item {
+            width: 80%;
+            position: relative;
+            margin: 0 auto 1rem;
+        }
+        .open__map {
+            margin-top: 0;
+        }
+        .header__logo {
+            font-size: 24px;
+            padding-left: .7rem;
+        }
+        .nav-toggle {
+            right: .7rem;
+            width: 30px;
+        }
+        .slick-arrow:after {
+            width: 11px;
+            height: 11px;
+            border-top: 2px solid #ccc;
+            border-right: 2px solid #ccc;
+        }
+        .quote__icon {
+            padding: 1rem;
+            width: 5rem;
+        }
+        .slide__item {
+            height: 11rem;
+            padding: 1rem 2.6rem;
+        }
+        .quote__text {
+            padding: 0 2.8rem 0 1.3rem;
+            font-size: 10px;
+        }
+        .quote__body {
+            margin-left: 22%;
+        }
+        .sign {
+            font-size: 14px;
+            margin-top: .7rem;
+            padding-left: 1rem;
+        }
+        .sign:before {
+            width: 30px;
+            height: 2px;
+        }
+        .wrapper--quote {
+            height: 11rem;
+        }
+        .quote__photo {
+            width: 6rem;
+        }
+        .quote__body-2 {
+            margin-left: 27%;
+        }
+        .title__reviews:after {
+            width: 50px;
+            height: 2px;
+        }
+        .reviews__column {
+            padding: 0;
+        }
+        .reviews {
+            padding: 1rem 0 0;
+        }
+        .reviews__item {
+            padding: 0 1rem 1rem;
+            margin: 0;
+        }
+        .reviews__item:last-child {
+            padding-bottom: 0;
+        }
+        .footer__item__mogo {
+            width: 40%;
+            padding-top: 0;
+            padding-right: 2rem;
+        }
+        .footer__item__blogs {
+            width: 37%;
+        }
+        .footer__item__inst {
+            width: 23%;
+        }
+        .wrapper--photo {
+            height: 130px;
+        }
+        .footer__item__mogo {
+            width: 100%;
+            padding-top: 0;
+            padding-right: 2rem;
+            order: 2;
+        }
+        .footer__item__blogs {
+            width: 55%;
+            order: 0;
+        }
+        .footer__item__inst {
+            width: 45%;
+            order: 1;
+        }
+        .mogo__footer {
+            padding-top: 0;
+        }
+        .inst__img {
+            max-width: 100%;
+        }
+    }

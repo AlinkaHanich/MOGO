@@ -106,7 +106,6 @@
     .nav__link:focus {
         outline: 0;
     }
-    /* to do responsive */
     
     .nav__link.active {
         color: #fce38a;
@@ -115,11 +114,10 @@
     
     .nav-toggle {
         display: none;
-        width: 30px;
-        height: 30px;
+        width: 40px;
         background: transparent;
         position: absolute;
-        left: 91%;
+        right: 0;
     }
     
     .nav-toggle:focus {
@@ -183,7 +181,7 @@
     }
     
     .main-suptitle {
-        margin: 14% auto 0;
+        margin: 8% auto 0;
         font-size: 60px;
         font-weight: 400;
         font-family: 'Kaushan Script', cursive;
