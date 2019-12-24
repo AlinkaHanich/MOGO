@@ -3,7 +3,7 @@
         max-width: 1024px;
     }
     .headerLogoNav {
-        padding: 0 2rem;
+        padding: 0;
     }
     .container__title {
         margin: 15rem auto;
@@ -23,9 +23,6 @@
     }
     .quote__body-2 {
         margin-left: 24%;
-    }
-    .section__logos {
-        padding: 5rem 6rem;
     }
     .devices {
         left: 27%;
@@ -51,6 +48,10 @@
     }
     .footer__item__blogs {
         width: 36%;
+    }
+    .icon__map {
+        left: 50%;
+        transform: translate(-50%, 5%);
     }
 }
 
@@ -99,6 +100,10 @@
     }
     .nav-toggle {
         display: block;
+    }
+    .icon__map {
+        left: 50%;
+        transform: translate(-50%, -11%);
     }
     .icon__text {
         top: 44%;
@@ -173,12 +178,11 @@
         margin: 0 auto;
     }
     .section__logos {
-        padding: 3rem 4rem;
+        padding: 2.8rem 4rem;
         margin-top: 0;
     }
     .wrapper--logos {
         height: 10rem;
-        margin-top: 8%;
     }
     .pic__photo {
         max-width: 176px;
@@ -191,9 +195,6 @@
     }
     .work__text {
         font-size: 10px;
-    }
-    .headerLogoNav {
-        max-width: 100%;
     }
     .photo__cell {
         width: 90px;

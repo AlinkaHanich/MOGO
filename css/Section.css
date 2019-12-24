@@ -387,16 +387,16 @@
 /* LOGOS */
 
 .logos__icon {
-    width: 100%;
+    max-width: 100%;
     align-items: center;
 }
 
 .section__logos {
-    margin-top: 6%;
-    padding: 4rem 6rem;
+    padding: 6% 2%;
 }
 
 .wrapper--logos {
     background-color: #f8f8f8;
     height: 270px;
+    margin-top: 6%;
 }
