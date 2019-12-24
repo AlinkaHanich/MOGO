@@ -1,6 +1,56 @@
 @media screen and (max-width: 1200px) {
     .container {
-        width: 970px;
+        max-width: 1024px;
+    }
+    .headerLogoNav {
+        padding: 0 2rem;
+    }
+    .container__title {
+        margin: 15rem auto;
+    }
+    .header__logo {
+        font-size: 35px;
+    }
+    .main-title {
+        font-size: 112px;
+    }
+    .nav {
+        font-size: 20px;
+    }
+    .button {
+        font-size: 18px;
+        padding: 14px 38px;
+    }
+    .quote__body-2 {
+        margin-left: 24%;
+    }
+    .section__logos {
+        padding: 5rem 6rem;
+    }
+    .devices {
+        left: 27%;
+    }
+    .stat__number {
+        padding: 6% 3%;
+    }
+    .suptitle {
+        font-size: 27px;
+        margin: 7% auto 20px;
+    }
+    .title {
+        font-size: 32px;
+    }
+    .text {
+        font-size: 17px;
+    }
+    .footer__item__blogs {
+        padding-right: 1rem;
+    }
+    .inst__img {
+        width: 80px;
+    }
+    .footer__item__blogs {
+        width: 36%;
     }
 }
 

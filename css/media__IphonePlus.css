@@ -110,7 +110,7 @@
         }
         .section__logos {
             margin-top: 0;
-            padding: 2.2rem 2rem;
+            padding: 10% 2%;
         }
         .reviews {
             flex-direction: column;
@@ -177,11 +177,11 @@
             width: 50px;
             height: 2px;
         }
-        .reviews__column {
-            padding: 0;
+        .reviews__column:last-child {
+            padding: 1rem 0 0;
         }
         .reviews {
-            padding: 1rem 0 0;
+            padding: .5rem 0 0;
         }
         .reviews__item {
             padding: 0 1rem 1rem;
@@ -223,5 +223,37 @@
         }
         .inst__img {
             max-width: 100%;
+            padding: 1px;
+            margin-bottom: -7px;
+        }
+        .footer__item__mogo {
+            padding-right: 0;
+        }
+        .blogs__date,
+        .blogs__text {
+            padding-top: 0;
+            font-size: 8px;
+            line-height: 12px;
+        }
+        .blogs__item {
+            width: 100%;
+        }
+        .footer__item__blogs {
+            padding-right: .7rem;
+        }
+        .blogs__title {
+            margin-bottom: .7rem;
+        }
+        .footer__blogs__img {
+            width: 80px;
+        }
+        .blogs__cell {
+            height: 12rem;
+        }
+        .link__photos {
+            font-size: 9px;
+        }
+        .icon__map {
+            left: 45%;
         }
     }

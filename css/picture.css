@@ -192,16 +192,16 @@
         margin-top: 6%;
         position: relative;
         background: url('../img/Layer_59.png') no-repeat;
-        height: 200px;
+        height: 300px;
         background-size: cover;
         width: 100%;
     }
     
     .icon__map {
         position: absolute;
-        top: 23%;
+        top: 30%;
         left: 47%;
-        transform: translate(-23%);
+        transform: translate(-30%);
         text-align: center;
         line-height: 2;
         cursor: pointer;
